@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import Menu from '../containers/Menu';
 
 export default class App extends Component {
   render() {
     return (
-      <div>React Redux Boilerplate</div>
+      <div>
+        <Menu />
+      </div>
     )
   }
 }
